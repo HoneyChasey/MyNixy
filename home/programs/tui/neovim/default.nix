@@ -25,5 +25,9 @@ in {
     zathura
     tesseract
     myTex
+
+  # Only 2 lsp i will download
+    nil
+    lua-language-server 
   ];
 }
