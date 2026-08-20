@@ -9,6 +9,12 @@
       collection-binextra
     ]);
 in {
+
+  xdg.configFile.nvim.source = ../../../../dotfiles/nvarch; # Add all the config in ~/.config/nvim -- you should comment this line, config for my nixos
+  
+  # LSP
+  # You should't install here lsp, but only when is nedeed, on your current projects path.
+
   home.packages = with pkgs; [
     neovim
     ripgrep
@@ -19,14 +25,5 @@ in {
     zathura
     tesseract
     myTex
-
-    # LSP
-    lua-language-server
-    gopls
-    nil # for nix
-    rust-analyzer
-    bash-language-server
-    clang-tools # for C/C++. What a name
-    pyright
   ];
 }
