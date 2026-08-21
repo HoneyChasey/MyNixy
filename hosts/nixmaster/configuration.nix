@@ -31,6 +31,9 @@
 
   users.users.${config.var.username}.hashedPassword = "$y$j9T$.lpL0xVWdVGlw3CczCoSf0$Vc9U2NhwMiB5uLHm0aecSMTJHo19ng8HN/UFGPKENMC"; # CHANGEME: This is my password. Run mkpasswd -m yescrypt to generate new one.
 
+  environment.variables.EDITOR = "nvim"; # changeme if you don't like neovim. This will be the default editor for yazi and other packages who using the variable $EDITOR.
+
   # Don't touch this
   system.stateVersion = "26.05";
+
 }
