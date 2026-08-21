@@ -14,7 +14,6 @@
     ticktick # Todo app
 
     # Backup
-    thunar
     gnome-text-editor
     discord
   ];
