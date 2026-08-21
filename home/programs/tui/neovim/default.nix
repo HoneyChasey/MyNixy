@@ -10,7 +10,7 @@
     ]);
 in {
 
-  xdg.configFile.nvim.source = ../../../../dotfiles/nvarch; # Add all the config in ~/.config/nvim -- you should comment this line, config for my nixos
+  xdg.configFile.nvim.source = ../../../../dotfiles/nvarch; # Add all the config in ~/.config/nvim -- you should comment this line, config for my nixos. Mopre info in docs/HYPRLAND.md
   
   # LSP
   # You should't install here lsp, but only when is nedeed, on your current projects path.

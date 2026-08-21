@@ -2,3 +2,6 @@ Remove all theme from the folder themes and where they are used
 
 
 Try to add a wrapper for stopping build for each modification of the neovim plugin
+
+Try to find a different way to add nvim config inside the nix config. Bc now plugin updates may be broken (read only path, and the json with ash of update cannot be modify).
+Try to read title window, and change the logo if this is neovim running.
